@@ -1,0 +1,78 @@
+/* CSS for inc.lt */
+
+html {
+    height: 100%;
+	margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0; 
+	font-size: 14px;
+	color: #5a5a5a;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.42857143;
+}
+
+.container {
+    box-sizing: border-box;
+    min-height: 100%;
+	margin-bottom: -90px;
+	padding-top: 40px;
+	padding-right: 30px;
+    padding-left: 30px;
+}
+
+.center {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.footer {
+    margin-top: 60px;
+	height: 20px;
+	padding-right: 30px;
+    padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+.push {
+    height: 90px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+a.pull-right {
+    text-decoration: none;
+    color: #777;
+}
+
+.pull-right:hover {
+    color: #333;
+}
+
+/* Fullpage Responsive jQuery GALLERY Lightbox Plugin - sumogallery */
+
+.SumoGallery .toggle-thumbs {
+    background-color: rgba(0, 0, 0, 0);
+    bottom: 80px;
+}
+
+.SumoGallery .toggle-thumbs:hover {
+    color: #333;
+}
+
+.SumoGallery ul.Sthumbnails li.sel a:after {
+    background-color: #333;
+    box-shadow: 0px 0px 5px #333;
+}
+
+.SumoGallery .Sheader {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.SumoGallery .SimgCount {
+    display: none;
+}

@@ -1,0 +1,190 @@
+/*CSS for inc.lt */
+/* NAVBAR */
+
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.navbar-brand:hover {
+    color: #777;
+}
+
+.carousel {
+    margin-bottom: 30px;
+}
+
+/* ABOUT */
+
+.about {
+    font-size: 21px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 0em 9em 4em 9em;
+}
+
+.about h1 {
+    margin-bottom: 1em;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* FEATURETTES */
+
+.featurette-heading {
+    margin-top: 0px;
+}
+
+.member-container {
+    height: 320px;
+}
+
+
+/* CONTACT FORM */
+
+
+.input-name {
+    margin-bottom: 30px; 
+}
+
+.form-group {
+    margin-top: 30px;
+}
+
+.contact {
+    padding-left: 15px;
+    margin-top: 0;
+    margin-bottom: 30px;    
+}
+
+textarea {
+    resize: vertical;
+}
+
+.pull-right a {
+   color: #777;
+}
+.pull-right a:hover {
+    color: #333;
+    cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: #333;
+  box-shadow: none;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 60px;
+}
+    
+
+/* RESPONSIVE */
+
+/* Portrait phones and smaller */
+@media(max-width:480px) {
+
+    .carousel .carousel-inner > .item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 300px;
+    }
+    
+    .carousel  {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .carousel .item {
+        height: 300px;
+    }
+    
+    .about {
+        margin: 0em 1em 2.1em 1em;
+    }
+    
+    .about h1 {
+        margin-top: 0;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+    
+    .btn {
+        margin: 10px 0;
+    }
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .first-divider {
+        margin-top: 0px;
+    }
+}    
+
+/* Landscape phones and portrait tablets *** EXTRA SMALL (xs)*/
+@media screen and (min-width:481px) and (max-width:767px) {
+
+    .carousel {
+        margin-bottom: 10px;
+    }
+
+    .about {
+    margin: 0em 3em 3em 3em;
+    }
+    
+    .about p {
+        font-size:19px;
+    }
+    
+    .marketing .col-lg-4 p {
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .btn {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .featurette-divider {
+        margin: 50px 0;
+    }
+    
+    .first-divider {
+        margin-top: 0px;
+    }
+}
+
+
+/* Portrait tablets and small desktops *** SMALL (sm)*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .carousel {
+        margin-bottom: 20px;
+    }
+    
+    .about {
+        font-size: 21px;
+        margin: 0em 4em 3.5em 4em;
+    }
+    
+    .btn {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+}
