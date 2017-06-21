@@ -1,0 +1,25 @@
+{
+  "name": "incommon",
+  "version": "1.0.0",
+  "description": "The InCommon (InC) website",
+  "main": "index.js",
+  "scripts": {
+    "ftp-deploy": "node ./buildScripts/ftp-deploy.js --local-root=. --remote-root=/incommon.neringafo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foknerin/incommon.git"
+  },
+  "author": "Neringa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/foknerin/incommon/issues"
+  },
+  "homepage": "https://github.com/foknerin/incommon#readme",
+  "devDependencies": {
+    "async": "^2.4.1",
+    "command-line-args": "^4.0.6",
+    "ftp": "^0.3.10",
+    "ftp-deploy": "^1.2.2"
+  }
+}
